@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <script src="recipes.js"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="py-5 bg-white shadow-md flex items-center justify-between">
+        <div>
+            <!-- Back Button -->
+            <button onclick="window.history.back()" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 mr-2">
+                <i class="fas fa-arrow-left"></i> <!-- Font Awesome Icon -->
+            </button>
+            <!-- Home Button -->
+            <a href="index.html" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+                <i class="fas fa-home"></i> <!-- Font Awesome Icon -->
+            </a>
+        </div>
+        <h1 id="recipeTitle" class="text-3xl font-bold text-gray-800 flex-grow text-center">Recipe Name</h1>
+        <div> <!-- Placeholder to keep the title centered -->
+        </div>
+    </header>
+    
+    
+
+    <main class="container max-w-5xl mx-auto p-5 h-auto">
+        <img id="recipeImage" class="w-full rounded-lg mb-6" src="" alt="Dish Image">
+        <div id="recipeAllergies" class="mb-6"></div>
+        <div id="recipeDifficulty" class="mb-6"></div>
+        <div id="recipeIngredients" class="mb-6"></div>
+        <div id="recipeInstructions" class="mb-6"></div>
+        <div class="text-center my-8">
+            <a id="cookWithMeLink" href="cook.html?recipe=" class="inline-block">
+                <img src="images/cook_with_me.jpeg" alt="Cook with Me" class="h-20">
+                <p class="mt-2 text-lg font-semibold text-gray-800">Cook with Me</p>
+            </a>            
+        </div>
+    </main>
+    
+
+    <footer class="text-center py-3 bg-white shadow-md">
+        <p class="text-gray-600">© 2024 Recipes Website</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const recipeId = urlParams.get('recipe');
+        
+            if (recipes[recipeId]) {
+                const recipe = recipes[recipeId];
+                document.getElementById('recipeTitle').textContent = recipe.title;
+                document.getElementById('recipeImage').src = recipe.image;
+                document.getElementById('recipeAllergies').innerHTML = `<strong>Allergies:</strong> ${recipe.allergies}`;
+                document.getElementById('recipeDifficulty').innerHTML = `<strong>Difficulty:</strong> ${recipe.difficulty}`;
+                document.getElementById('recipeIngredients').innerHTML = `<strong>Ingredients:</strong><ul>` + recipe.ingredients.map(ingredient => `<li>${ingredient}</li>`).join('') + `</ul>`;
+                document.getElementById('recipeInstructions').innerHTML = `<strong>Instructions:</strong><ol>` + recipe.instructions.map(step => `<li>${step}</li>`).join('') + `</ol>`;
+                document.getElementById('cookWithMeLink').href = `cook.html?recipe=${recipeId}`;
+            } else {
+                // Handle case where recipeId is not found
+                document.getElementById('recipeTitle').textContent = 'Recipe not found';
+                // Optionally hide or clear other content
+            }
+        });
+        </script>
+        
+    
+</body>
+</html>
