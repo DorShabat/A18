@@ -135,7 +135,7 @@ var recipes = {
     },
     "5": {
         "title": "Salad",
-        "image": "images/salad/salad.jpg",
+        "image": "images/salad/Salad.jpg",
         "allergies": "None",
         "difficulty": "Easy",
         "ingredients": [
@@ -198,7 +198,7 @@ var recipes = {
       
     "7": {
         "title": "Tacos",
-        "image": "images/tacos/tacos.jpg",
+        "image": "images/tacos/Tacos.jpg",
         "allergies": "Dairy, Gluten",
         "difficulty": "Intermediate",
         "ingredients": [
@@ -227,8 +227,8 @@ var recipes = {
         ]
     },
     "8": {
-        "title": "salmon",
-        "image": "images/salmon/salmon.jpg",
+        "title": "Salmon",
+        "image": "images/salmon/Salmon.jpg",
         "allergies": "None",
         "difficulty": "Intermediate",
         "ingredients": [
@@ -257,8 +257,8 @@ var recipes = {
         ]
     },
     "9": {
-        "title": "chocolate cake",
-        "image": "images/chocolate cake/chocolate cake.jpg",
+        "title": "Chocolate Cake",
+        "image": "images/chocolate cake/Chocolate Cake.jpg",
         "allergies": "Dairy, Gluten",
         "difficulty": "Intermediate",
         "ingredients": [
