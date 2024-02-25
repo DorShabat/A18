@@ -31,7 +31,6 @@ var recipes = {
             "images/spaghetti/instruction5.jpg",
             "images/spaghetti/instruction6.jpg",
             "images/spaghetti/instruction7.jpg",
-            "images/finished_dish.jpg"
         ]
 
     },
@@ -70,7 +69,7 @@ var recipes = {
     },
     "3": {
         "title": "Vegetable Stir-Fry",
-        "image": "images/Vegetable Stir-Fry/Vegetable Stir-Fry.jpg",
+        "image": "images/Vegetable Stir-Fry/Vegetable Stir Fry.jpg",
         "allergies": "None",
         "difficulty": "Easy",
         "ingredients": [
@@ -98,8 +97,8 @@ var recipes = {
             "images/Vegetable Stir-Fry/instruction2.jpg",
             "images/Vegetable Stir-Fry/instruction3.jpg",
             "images/Vegetable Stir-Fry/instruction4.jpg",
-            "images/Vegetable Stir-Fry/instruction5.JPG",
-            "images/Vegetable Stir-Fry/Vegetable Stir-Fry.jpg"
+            "images/Vegetable Stir-Fry/instruction5.jpg",
+            "images/Vegetable Stir-Fry/instruction6.jpg"
         ]
     },
     "4": {
@@ -161,7 +160,7 @@ var recipes = {
     },
     "6": {
         "title": "Kosher Beef Burger",
-        "image": "images/kosher_burger/kosher_burger.jpg",
+        "image": "images/Kosher Beef Burger/Kosher Beef Burger.jpg",
         "allergies": "None",
         "difficulty": "Intermediate",
         "ingredients": [
@@ -183,19 +182,17 @@ var recipes = {
           "4. Toast hamburger buns on the grill until lightly golden.",
           "5. Spread mustard and ketchup on the bottom half of each bun.",
           "6. Layer each bun with lettuce, tomato, onion, pickles, and a grilled patty.",
-          "7. If using cheese and keeping kosher, ensure it's a non-dairy cheese alternative. Place it on the patty right before it finishes cooking to melt slightly.",
-          "8. Top with the other half of the bun and serve immediately."
+          "7. If using cheese and keeping kosher, ensure it's a non-dairy cheese alternative. Place it on the patty right before it finishes cooking to melt slightly."
         ],
         "duration": [10, 5, 10, 5, 5, 5, 5, 5],
         "pics": [
-          "images/kosher_burger/instruction1.jpg",
-          "images/kosher_burger/instruction2.jpg",
-          "images/kosher_burger/instruction3.jpg",
-          "images/kosher_burger/instruction4.jpg",
-          "images/kosher_burger/instruction5.jpg",
-          "images/kosher_burger/instruction6.jpg",
-          "images/kosher_burger/instruction7.jpg",
-          "images/kosher_burger/finished_dish.jpg"
+          "images/Kosher Beef Burger/instruction1.jpg",
+          "images/Kosher Beef Burger/instruction2.jpg",
+          "images/Kosher Beef Burger/instruction3.jpg",
+          "images/Kosher Beef Burger/instruction4.jpg",
+          "images/Kosher Beef Burger/instruction5.jpg",
+          "images/Kosher Beef Burger/instruction6.jpg",
+          "images/Kosher Beef Burger/instruction7.jpg",
         ]
     },
       
@@ -261,7 +258,7 @@ var recipes = {
     },
     "9": {
         "title": "chocolate cake",
-        "image": "images/chocolate_cake/chocolate_cake.jpg",
+        "image": "images/chocolate cake/chocolate cake.jpg",
         "allergies": "Dairy, Gluten",
         "difficulty": "Intermediate",
         "ingredients": [
@@ -290,14 +287,14 @@ var recipes = {
         ],
         "duration": [5, 5, 5, 5, 5, 35, 10, 5],
         "pics": [
-            "images/chocolate_cake/instruction1.jpg",
-            "images/chocolate_cake/instruction2.jpg",
-            "images/chocolate_cake/instruction3.jpg",
-            "images/chocolate_cake/instruction4.jpg",
-            "images/chocolate_cake/instruction5.jpg",
-            "images/chocolate_cake/instruction6.jpg",
-            "images/chocolate_cake/instruction7.jpg",
-            "images/chocolate_cake/finished_dish.jpg"
+            "images/chocolate cake/instruction1.jpg",
+            "images/chocolate cake/instruction2.jpg",
+            "images/chocolate cake/instruction3.jpg",
+            "images/chocolate cake/instruction4.jpg",
+            "images/chocolate cake/instruction5.jpg",
+            "images/chocolate cake/instruction6.jpg",
+            "images/chocolate cake/instruction7.jpg",
+            "images/chocolate cake/instruction8.jpg"
         ]
     }
 }

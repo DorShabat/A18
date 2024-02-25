@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Icook</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="recipes.js"></script>
 </head>
 <body class="bg-gray-100">
     <header class="py-5 bg-white shadow-md flex items-center justify-center">
@@ -15,35 +16,39 @@
         <img src="images/logo.jpeg" alt="Logo" class="h-20 ml-5"> 
     </header>
     
-    <main class="container mx-auto p-5 grid grid-cols-1 md:grid-cols-3 gap-2">
-<!-- Recipe 1 -->
-<a href="recipe.html?recipe=1" class="bg-white rounded overflow-hidden shadow-lg h-60 flex flex-col justify-end relative">
-    <img class="w-full h-full object-cover" src="images/spaghetti/spaghetti.jpg" alt="Recipe 1 Title">
-    <div class="absolute inset-x-0 bottom-0 bg-gray-800 bg-opacity-50 text-white text-center py-2">
-        <div class="font-bold text-xl mb-2">Spaghetti</div>
-    </div>
-</a>
-
-<!-- Recipe 2 -->
-<a href="recipe.html?recipe=2" class="bg-white rounded overflow-hidden shadow-lg h-60 flex flex-col justify-end relative">
-    <img class="w-full h-full object-cover" src="images/chicken/chicken.jpg" alt="Recipe 2 Title">
-    <div class="absolute inset-x-0 bottom-0 bg-gray-800 bg-opacity-50 text-white text-center py-2">
-        <div class="font-bold text-xl mb-2">Chicken</div>
-    </div>
-</a>
-
-<!-- Recipe 3 -->
-<a href="recipe.html?recipe=3" class="bg-white rounded overflow-hidden shadow-lg h-60 flex flex-col justify-end relative">
-    <img class="w-full h-full object-cover" src="images/Vegetable Stir-Fry/vegetable stir fry.jpg" alt="Recipe 3 Title">
-    <div class="absolute inset-x-0 bottom-0 bg-gray-800 bg-opacity-50 text-white text-center py-2">
-        <div class="font-bold text-xl mb-2">Vegetable Stir-Fry</div>
-    </div>
-</a>
+    <main class="container mx-auto p-5 grid grid-cols-1 md:grid-cols-3 gap-4">
+        <!-- Recipes will be inserted here dynamically -->
     </main>
 
     <footer class="text-center py-3 bg-white shadow-md">
         <p class="text-gray-600">© 2024 Icook Website</p>
         <p class="text-gray-600">Dor, Nitzan, Yuval, Niv</p>
     </footer>
+
+    <script>      
+        function renderRecipes() {
+            var container = document.querySelector('main');
+            var htmlContent = '';
+        
+            for (var id in recipes) {
+                if (recipes.hasOwnProperty(id)) {
+                    var recipe = recipes[id];
+                    htmlContent += `
+                        <a href="recipe.html?recipe=${id}" class="bg-white rounded overflow-hidden shadow-lg h-60 flex flex-col justify-end relative">
+                            <img class="w-full h-full object-cover" src="${recipe.image}" alt="${recipe.title} Title">
+                            <div class="absolute inset-x-0 bottom-0 bg-gray-800 bg-opacity-50 text-white text-center py-2">
+                                <div class="font-bold text-xl mb-2">${recipe.title}</div>
+                            </div>
+                        </a>
+                    `;
+                }
+            }
+        
+            container.innerHTML = htmlContent;
+        }
+        
+        // Call renderRecipes to dynamically insert the recipes into the grid
+        renderRecipes();
+        </script>
 </body>
 </html>
