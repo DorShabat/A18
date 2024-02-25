@@ -1,7 +1,7 @@
 var recipes = {
     "1": {
         "title": "Spaghetti",
-        "image": "images/spaghetti/spaghetti.jpg",
+        "image": "images/spaghetti/Spaghetti.jpg",
         "allergies": "None",
         "difficulty": "Intermediate",
         "ingredients": [
@@ -36,7 +36,7 @@ var recipes = {
     },
     "2": {
         "title": "Chicken",
-        "image": "images/chicken/chicken.jpg",
+        "image": "images/chicken/Chicken.jpg",
         "allergies": "Dairy, Gluten",
         "difficulty": "Intermediate",
         "ingredients": [
@@ -68,8 +68,8 @@ var recipes = {
         ]
     },
     "3": {
-        "title": "Vegetable Stir-Fry",
-        "image": "images/Vegetable Stir-Fry/vegetable stir fry.jpg",
+        "title": "Vegetable Stir Fry",
+        "image": "images/Vegetable Stir-Fry/Vegetable Stir Fry.jpg",
         "allergies": "None",
         "difficulty": "Easy",
         "ingredients": [
@@ -103,7 +103,7 @@ var recipes = {
     },
     "4": {
         "title": "Pancakes",
-        "image": "images/pancakes/pancakes.jpg",
+        "image": "images/pancakes/Pancakes.jpg",
         "allergies": "Dairy, Gluten",
         "difficulty": "Easy",
         "ingredients": [
