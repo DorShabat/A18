@@ -69,7 +69,7 @@ var recipes = {
     },
     "3": {
         "title": "Vegetable Stir Fry",
-        "image": "images/Vegetable Stir-Fry/Vegetable Stir Fry.jpg",
+        "image": "images/vegetable stir fry/Vegetable Stir Fry.jpg",
         "allergies": "None",
         "difficulty": "Easy",
         "ingredients": [
@@ -93,12 +93,12 @@ var recipes = {
         ],
         "duration": [10, 5, 5, 10, 5, 5],
         "pics": [
-            "images/Vegetable Stir-Fry/instruction1.jpg",
-            "images/Vegetable Stir-Fry/instruction2.jpg",
-            "images/Vegetable Stir-Fry/instruction3.jpg",
-            "images/Vegetable Stir-Fry/instruction4.jpg",
-            "images/Vegetable Stir-Fry/instruction5.jpg",
-            "images/Vegetable Stir-Fry/instruction6.jpg"
+            "images/vegetable stir fry/instruction1.jpg",
+            "images/vegetable stir fry/instruction2.jpg",
+            "images/vegetable stir fry/instruction3.jpg",
+            "images/vegetable stir fry/instruction4.jpg",
+            "images/vegetable stir fry/instruction5.jpg",
+            "images/vegetable stir fry/instruction6.jpg"
         ]
     },
     "4": {
@@ -160,7 +160,7 @@ var recipes = {
     },
     "6": {
         "title": "Kosher Beef Burger",
-        "image": "images/Kosher Beef Burger/Kosher Beef Burger.jpg",
+        "image": "images/kosher beef burger/Kosher Beef Burger.jpg",
         "allergies": "None",
         "difficulty": "Intermediate",
         "ingredients": [
@@ -186,13 +186,13 @@ var recipes = {
         ],
         "duration": [10, 5, 10, 5, 5, 5, 5, 5],
         "pics": [
-          "images/Kosher Beef Burger/instruction1.jpg",
-          "images/Kosher Beef Burger/instruction2.jpg",
-          "images/Kosher Beef Burger/instruction3.jpg",
-          "images/Kosher Beef Burger/instruction4.jpg",
-          "images/Kosher Beef Burger/instruction5.jpg",
-          "images/Kosher Beef Burger/instruction6.jpg",
-          "images/Kosher Beef Burger/instruction7.jpg",
+          "images/kosher beef burger/instruction1.jpg",
+          "images/kosher beef burger/instruction2.jpg",
+          "images/kosher beef burger/instruction3.jpg",
+          "images/kosher beef burger/instruction4.jpg",
+          "images/kosher beef burger/instruction5.jpg",
+          "images/kosher beef burger/instruction6.jpg",
+          "images/kosher beef burger/instruction7.jpg",
         ]
     },
       
