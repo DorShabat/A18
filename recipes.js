@@ -69,7 +69,7 @@ var recipes = {
     },
     "3": {
         "title": "Vegetable Stir-Fry",
-        "image": "images/Vegetable Stir-Fry/Vegetable Stir Fry.jpg",
+        "image": "images/Vegetable Stir-Fry/vegetable stir fry.jpg",
         "allergies": "None",
         "difficulty": "Easy",
         "ingredients": [
