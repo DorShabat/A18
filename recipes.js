@@ -1,3 +1,4 @@
+
 var recipes = {
     "1": {
         "title": "Spaghetti",
@@ -31,8 +32,9 @@ var recipes = {
             "images/spaghetti/instruction5.jpg",
             "images/spaghetti/instruction6.jpg",
             "images/spaghetti/instruction7.jpg",
-        ]
-
+        ],
+        
+        
     },
     "2": {
         "title": "Chicken",
@@ -285,7 +287,7 @@ var recipes = {
             "7. Cool in the pans for 10 minutes, then remove to a wire rack to cool completely.",
             "8. Frost with chocolate frosting and serve."
         ],
-        "duration": [5, 5, 5, 5, 5, 35, 10, 5],
+        "duration": [10, 5, 5, 5, 5, 35, 600, 5],
         "pics": [
             "images/chocolate cake/instruction1.jpg",
             "images/chocolate cake/instruction2.jpg",
